@@ -29,8 +29,8 @@ function Mentoring() {
     <div>
       <Navbar />
       <main className="dark:bg-gray-800 bg-white">
-        <div className="mt-7 mb-3 flex">
-          <h3 className="bg-blue-50 font-bold mx-auto text-4xl rounded inline-block bg-contain">Temukan mentor Anda</h3>
+        <div className="flex justify-start ml-1 mt-4 mx-auto">
+          <h3 className="bg-blue-50 ml-4 font-semibold rounded p-2 pl-6 pr-6 inline-block bg-contain">Tentukan Mentor Pilihan Anda</h3>
         </div>
         <div className="container mx-auto flex flex-col md:flex-row flex-wrap justify-start">
           {dashboardmentor.map((data, id) => (

@@ -39,14 +39,17 @@ function Navbar() {
         <div className="justify-between items-center" id="mobile-menu-2">
           <ul className="hidden md:flex flex-col md:flex-row mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
-              <a className="block pr-4 pl-3 text-white lg:hover:text-blue-700 rounded lg:bg-transparent lg:p-0 dark:text-white" aria-current="page">
+              <a
+                className="block pr-2` text-white  border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+              >
                 <Link to="/">Beranda</Link>
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="block pr-4 pl-3 text-white  border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                className="block pr-2 pl-2 text-white  border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
               >
                 <Link to="/about">Tentang Kami</Link>
               </a>
@@ -54,7 +57,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block pr-4 pl-3 text-white border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                className="block pr-2 pl-2 text-white border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
               >
                 <Link to="/jadwal">Jadwal</Link>
               </a>
@@ -62,18 +65,18 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block pr-4 pl-3 text-white  border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                className="block pr-5 pl-2 text-white  border-gray-100 rounded-md hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
               >
                 <Link to="/mentoring">Cari Mentor</Link>
               </a>
             </li>
             <li>
-              <a className="hidden hover:text-black text-white md:block dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-1 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 border-gray-300 dark:border-gray-300 dark:border-solid-2 dark:hover:border-gray-800 border-solid-2 border">
+              <a className="hidden hover:text-black text-white md:block dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium ml-16 rounded-lg text-sm px-5 pl-5 py-1 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 border-gray-300 dark:border-gray-300 dark:border-solid-2 dark:hover:border-gray-800 border-solid-2 border">
                 <Link to="/masuk">Login</Link>
               </a>
             </li>
             <li>
-              <a className="text-white hidden md:block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 mb-2 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+              <a className="text-black hidden md:block bg-blue-200 hover:bg-gray-50 focus:ring-4 transition hover:scale-125 focus:ring-gray-300 hover:text-black font-medium rounded-lg text-sm px-5 py-1.5 mb-2 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                 <Link to="/daftar">Mulai Sekarang</Link>
               </a>
             </li>
