@@ -15,6 +15,7 @@ import Masuk from './auth/Masuk';
 import Daftar from './auth/Daftar';
 import DetailMentor from './pages/DetailMentor';
 import Booking from './pages/Booking';
+import LoginUser from './auth/LoginUser';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/dashboardregister/" element={ <DashboardRegister/> } />
         <Route path="/detailmentor/:id" element={ <DetailMentor/> } />
         <Route path="/booking" element={ <Booking/> } />
+        <Route path="/login" element={ <LoginUser/> } />
       </Routes>
     </div>
   )
